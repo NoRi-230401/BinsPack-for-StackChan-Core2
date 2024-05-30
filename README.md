@@ -46,17 +46,17 @@ SD-Updaterのランチャーソフト。<br>
 
 SD-Updaterが初めての場合には、Core2本体に一度だけ対応ソフトを書き込む必要があります。<br>
 Githubでファイルを取得しVsCodeを使用してコンパイル後に書き込むこともできますが、<br>
-<b>M5Burnerを使用してWebServer-with-Stackchanのソフトを書き込むと簡単に書き込めます。</b><br>
+<b>M5Burnerを使用してWebServer-with-Stackchanのソフトを書き込むと簡単です。</b><br>
 <br><br>
 
-## ブート時
-電源投入直後のブート時に SD-UpdaterのLobby画面が表示されます。<br>
+## 動作
+電源投入直後のブート時に SD-UpdaterのLobby画面が現れます。<br>
 
-- <b>"Skip >>"</b> 選択または、タイムアウトで、前回動作したソフトがそのまま起動します。<br><br>
+- <b>"Skip >>"</b> 選択または、タイムアウトで、現在のソフトがそのまま起動。<br><br>
 ![画像](images/wss-sdupdater.jpg)<br>
 
-- <b>"< Menu"</b>  押下するとソフト選択(ランチャー)に移動。（次の画像）<br>
-<br>ここで、起動ソフトを選択することができます。<br>
+- <b>"< Menu"</b>  押下するとソフト選択(ランチャー)に移動。<br>
+<br>ここで、複数ソフトから次に起動するものを選択することができます。<br>
 ![画像](images/IMG_menu.jpg )<br>
 
 <br><br>
