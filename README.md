@@ -28,8 +28,8 @@ SD-Updaterのランチャーソフト。<br>
   "01-wss.bin"および "02-StackChan-Radiko.bin"で使用するWiFi設定のテンプレート・ファイル<br>
 <br>
 - apikey.txt<br>
-"01-wss.bin"　ApiKey設定のテンプレート・ファイル<br>
-<br><br>
+"01-wss.bin"　ApiKey設定のテンプレート・ファイル<br><br>
+<br>
 
 ## 対応ハードウエア
 - M5Stack Core2 for AWS<br>
