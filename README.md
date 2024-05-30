@@ -10,10 +10,10 @@ SD-Updaterに対応したスタックチャンのCore2版のBINファイル集�
 - [01-wss.bin](https://github.com/NoRi-230401/WebServer-with-stackchan)<br>
   WebServer-with-Stackchan
 
-- [02-StackChan-Radiko.bin](https://github.com/NoRi-230401/SDU-M5Unified_StackChan_Radiko)<br>
+- [02-radiko.bin](https://github.com/NoRi-230401/SDU-M5Unified_StackChan_Radiko)<br>
 Radiko
 
-- [03-stackchan-bluetooth-speaker.bin](https://github.com/NoRi-230401/SDU-stackchan-bluetooth-simple)<br>
+- [03-btSpeaker.bin](https://github.com/NoRi-230401/SDU-stackchan-bluetooth-simple)<br>
   Bluetooth Speaker
 
 <b>※02および03は、robo8080さんのソフトを変更して、SD-Updaterに対応しました。</b><br>
