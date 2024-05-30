@@ -7,6 +7,8 @@ SD-Updaterに対応したスタックチャン(Core2版)のBINファイル集で
 
 ## BINS
 
+"Copy-to-SD"フォルダ下にSDで使用するファイルがあります。<br>
+
 - [01_btSpeaker.bin](https://github.com/NoRi-230401/SDU-stackchan-bluetooth-simple)<br>
   Bluetooth Speaker
 
@@ -43,10 +45,13 @@ SD-Updaterのランチャーソフト。<br>
 - BINファイルは、全てSD直下にコピーしてください。<br>
 - 設定ファイル(wifi.txt等)は、必要に応じて修正してからSDにコピーしてください。<br>
 - jpg / jsonフォルダ下のファイルをコピーするとソフト画像と説明が表示されます。<br>
+<br>
+SD-Updaterが初めての場合には、Core2本体に一度だけ対応ソフトを書き込む必要があります。
+次の２つの方法があります。<br>
 
-SD-Updaterが初めての場合には、Core2本体に一度だけ対応ソフトを書き込む必要があります。<br>
-Githubでファイルを取得しVsCodeを使用してコンパイル後に書き込むこともできますが、<br>
-<b>M5Burnerを使用してWebServer-with-Stackchanのソフトを書き込むと簡単です。</b><br>
+- 01～03いずれかのソフトをGithubでファイルを取得し、VsCodeの開発環境を整えコンパイルしてCore2本体に書き込む。<br>
+
+- <b>M5Burnerを使用してWebServer-with-Stackchanのソフトを書き込む（簡単なので推奨）</b>
 <br><br>
 
 ## 動作
@@ -66,5 +71,7 @@ tobozoさん開発。SDに複数のBINファイルを入れて、ソフトを切
  https://github.com/tobozo/M5Stack-SD-Updater<br><br>
 
 
-タカオさん、2023/7/29 ｽﾀｯｸﾁｬﾝ お誕生日会 2023のLTで、M5Stack-SD-Updaterの概要を説明した時のスライド
+タカオさん、2023/7/29 ｽﾀｯｸﾁｬﾝ お誕生日会 2023のLTで、M5Stack-SD-Updaterの概要を説明した時のスライド<br>
 https://speakerdeck.com/mongonta0716/sutatukutiyandefu-shu-apuriwoqie-riti-erutekunituku
+
+<br><br><br>
