@@ -1,7 +1,7 @@
 # BinsPack-for-StackChan-Core2
 
 SD-Updaterに対応したスタックチャン(Core2版)のBINファイル集です。<br>
-スタックチャン用ソフト３種とランチャー(menu.bin)を同梱しています。
+スタックチャン用ソフト４種とランチャー(menu.bin)を同梱しています。
 
 各ソフトの内容は、リンクをご参照ください。
 
@@ -22,18 +22,43 @@ Radiko
 
 - [03_wss.bin](https://github.com/NoRi-230401/WebServer-with-stackchan)<br>
   WebServer-with-Stackchan
+<br><br>
+
+- [04_whisperMp3.bin](https://github.com/NoRi-230401/SDU-M5Unified_StackChan)<br>
+  stackchan-whisper-mp3<br>
+  独り言を言うｽﾀｯｸﾁｬﾝです。セリフをSDカードにmp3ファイルで入れておくとランダムに再生します。<br>
+  mp3のデータファイルと"servo.txt","volume.txt"の設定ファイルを使用します。<br>
+  実行前にSDにコピーが必要です。
 <br>
+
+<b>※04は、@mongonta555 さんソフトをSD-Updater対応したものです。</b><br>
+<br>
+
 
 - [menu.bin](https://github.com/tobozo/M5Stack-SD-Updater/releases)<br>
 SD-Updaterのランチャーソフト。<br>
 "M5Core2-Launcher-2.0.13.bin" を "menu.bin"に名前を変更したものです。
 <br><br>
 
-## その他のファイル
+## 設定ファイル
+SD直下に置いてください。
+
+- servo.txt<br>
+  "04_whisperMp3.bin"で使用するServo設定ファイル<br>
+  サンプル設定を添付しています。名前を"servo.txt"に変えてSD直下にコピー。<br>
+
+- volume.txt<br>
+  "04_whisperMp3.bin"で使用するVolume設定ファイル<br>
+  サンプル設定を添付しています。<br>
+
 - wifi.txt<br>
-  "03_wss.bin"および "02_radiko.bin"で使用するWiFi設定のテンプレート・ファイル<br><br>
+  "03_wss"および "02_radiko"で使用するWiFi設定のテンプレート・ファイル<br>
+  設定を自分用に変更してSD直下にコピーしてください。<br>
+  <br>
+
 - apikey.txt<br>
   "03_wss.bin"　で使用するApiKey設定のテンプレート・ファイル<br><br>
+  設定を自分用に変更してSD直下にコピーしてください。<br>
 <br>
 
 ## 対応ハードウエア
