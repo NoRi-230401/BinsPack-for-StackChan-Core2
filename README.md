@@ -18,15 +18,17 @@ SD-Updaterに対応したスタックチャン(Core2版)のBINファイル集で
 Radiko
 
 <b>※01および02は、robo8080さんのソフトをSD-Updater対応したものです。</b><br>
+この２つは、凄いソフトです。実用性あります。ぜひ、使って見てください。<br>
 <br>
 
 - [03_wss.bin](https://github.com/NoRi-230401/WebServer-with-stackchan)<br>
-  WebServer-with-Stackchan
-<br><br>
+  WebServer-with-Stackchan<br>
+  AiStackChan2相当、サーボ調整、リモコン等たくさんの機能を詰め込みました。<br><br>
 
 - [04_whisperMp3.bin](https://github.com/NoRi-230401/SDU-M5Unified_StackChan)<br>
   stackchan-whisper-mp3<br>
-  独り言を言うｽﾀｯｸﾁｬﾝです。セリフをSDカードにmp3ファイルで入れておくとランダムに再生します。<br>
+  スタックチャンが独り言を言います。セリフをSDカードにmp3ファイルで入れておくとランダムに再生します。<br>
+  通信環境(WiFi等)がいらないソフトなので気楽に使えます。デモや販促等で活躍できそうです。<br>
   mp3のデータファイルと"servo.txt","volume.txt"の設定ファイルを使用します。<br>
   実行前にSDにコピーが必要です。
 <br>
@@ -66,15 +68,21 @@ SD直下に置いてください。
 - M5Stack Core2 <br>
 - M5Stack Core2 v1.1　<br><br>
 
+サーボは、SG90とその互換の機種<br>
+<br>
+
 ## インストール方法
 - BINファイルは、全てSD直下にコピーしてください。<br>
 - 設定ファイル(wifi.txt等)は、必要に応じて修正してからSDにコピーしてください。<br>
 - jpg / jsonフォルダ下のファイルをコピーすると対応ソフトの画像と説明が表示されます。<br><br>
+- その他に、ソフト毎に独自にデータファイル等が必要になるものがあります。ソフトの説明書を見て確認してください。<br>
+例）"04_whisperMp3.bin" は、SD直下のmp3フォルダ下に音声データが必要です。<br><br><br>
+
 
 SD-Updaterが初めての場合には、Core2本体に一度だけ対応ソフト（ファームウエア）を書き込む必要があります。<br>
 次の２つの方法があります。<br>
 
-- 01～03いずれかのソフトをGithubでファイルを取得し、VsCodeの開発環境を整えコンパイルしてCore2本体に書き込む。<br>
+- 01～04いずれかのソフトをGitHubでファイルを取得し、VsCodeの開発環境を整えコンパイルしてCore2本体に書き込む。<br>
 
 - <b>M5Burnerを使用してWebServer-with-Stackchanのソフトを書き込む<br>
 （簡単なのでこの方法を推奨します）</b>
