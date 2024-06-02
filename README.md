@@ -55,7 +55,7 @@ SD直下に置いてください。
  04 と05 で使用するServo設定ファイル<br>
 １行目(USE_SERVO)： "on" または、 "off"<br>
 ２行目(SERVO_PIN_X) ： "13"(PortC)　または、"33"(PortA)<br>
-３行目(SERVO_PIN_Y) ： "14"(Portc)　または、"32"(PortA)<br>
+３行目(SERVO_PIN_Y) ： "14"(PortC)　または、"32"(PortA)<br>
 サーボを使用しない場合は、１行目を "off"　<br>
 サーボを使用する場合は、　１行目を "on"　<br>
 <br>
@@ -82,8 +82,8 @@ LEDを使用する場合は、 　"on"　<br>
 <br>
 
 ## 対応ハードウエア
-### 本体:　 M5Core2 
-- M5Stack Core2 for AWS（この機種で動作確認をおこなっています。）<br>
+### 本体:　 MStac5 Core2
+- M5Stack Core2 for AWS（動作確認している機種）<br>
 - M5Stack Core2 <br>
 - M5Stack Core2 v1.1　<br>
 <br>
