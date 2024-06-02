@@ -82,7 +82,7 @@ LEDを使用する場合は、 　"on"　<br>
 <br>
 
 ## 対応ハードウエア
-### 本体:　 MStac5 Core2
+### 本体:　 M5Sstack Core2
 - M5Stack Core2 for AWS（動作確認している機種）<br>
 - M5Stack Core2 <br>
 - M5Stack Core2 v1.1　<br>
