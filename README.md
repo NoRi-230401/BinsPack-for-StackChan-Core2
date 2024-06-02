@@ -33,7 +33,7 @@ WebRadio Radikoプレイヤー付きのスタックチャン
   実行前にSDにコピーが必要です。
 <br><br>
 
-- [05_AvatarLite.bin](https://github.com/mongonta0716/M5Core2ImageAvatarLite)<br>
+- [05_AvatarLite.bin](https://github.com/NoRi-230401/SDU-M5Core2ImageAvatarLite)<br>
   Image Avatar Lite<br>
 独自Avatar開発の為のソフトウエア・ツールです。<br>
 Avatarが、サーボ・LED・bluetoothスピーカ音声とコラボして変化します。<br>
