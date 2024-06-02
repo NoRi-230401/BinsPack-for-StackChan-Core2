@@ -1,7 +1,7 @@
 # BinsPack-for-StackChan-Core2
 
 SD-Updaterに対応したスタックチャン(Core2版)のBINファイル集です。<br>
-スタックチャン用ソフト４種とランチャー(menu.bin)を同梱しています。
+スタックチャン用ソフト５種とランチャー(menu.bin)を同梱しています。
 
 各ソフトの内容は、リンクをご参照ください。
 
@@ -10,12 +10,12 @@ SD-Updaterに対応したスタックチャン(Core2版)のBINファイル集で
 "Copy-to-SD"フォルダ下にSDで使用するファイルがあります。<br>
 
 - [01_btSpeaker.bin](https://github.com/NoRi-230401/SDU-stackchan-bluetooth-simple)<br>
-  Bluetooth Speaker
-
-
+  Bluetooth Speaker<br>
+<br>
 
 - [02_radiko.bin](https://github.com/NoRi-230401/SDU-M5Unified_StackChan_Radiko)<br>
-Radiko
+Radiko<br>
+WebRadio Radikoプレイヤー付きのスタックチャン
 
 <b>※01および02は、robo8080さんのソフトをSD-Updater対応したものです。</b><br>
 この２つは、凄いソフトです。実用性あります。ぜひ、使って見てください。<br>
@@ -31,9 +31,15 @@ Radiko
   通信環境(WiFi等)がいらないソフトなので気楽に使えます。デモや販促等で活躍できそうです。<br>
   mp3のデータファイルと"servo.txt","volume.txt"の設定ファイルを使用します。<br>
   実行前にSDにコピーが必要です。
+<br><br>
+
+- [05_AvatarLite.bin](https://github.com/mongonta0716/M5Core2ImageAvatarLite)<br>
+  Image Avatar Lite<br>
+独自Avatar開発の為のソフトウエア・ツールです。<br>
+Avatarが、サーボ・LED・bluetoothスピーカ音声とコラボして変化します。<br>
 <br>
 
-<b>※04は、@mongonta555 さんソフトをSD-Updater対応したものです。</b><br>
+<b>※04、05は、mongonta0716さんのソフトをSD-Updater対応したものです。</b><br>
 <br>
 
 
@@ -46,29 +52,45 @@ SD-Updaterのランチャーソフト。<br>
 SD直下に置いてください。
 
 - servo.txt<br>
-  "04_whisperMp3.bin"で使用するServo設定ファイル<br>
-  サンプル設定を添付しています。名前を"servo.txt"に変えてSD直下にコピー。<br>
+ 04 と05 で使用するServo設定ファイル<br>
+１行目(USE_SERVO)： "on" または、 "off"<br>
+２行目(SERVO_PIN_X) ： "13"(PortC)　または、"33"(PortA)<br>
+３行目(SERVO_PIN_Y) ： "14"(Portc)　または、"32"(PortA)<br>
+サーボを使用しない場合は、１行目を "off"　<br>
+サーボを使用する場合は、　１行目を "on"　<br>
+<br>
+
+- led.txt<br>
+05 で使用するLED設定ファイル<br>
+１行目(USE_LED)： "on" または、 "off"<br>
+LEDを使用しない場合は、 "off"<br>
+LEDを使用する場合は、 　"on"　<br>
+<br>
 
 - volume.txt<br>
-  "04_whisperMp3.bin"で使用するVolume設定ファイル<br>
-  サンプル設定を添付しています。<br>
-
+  04 で使用するVolume設定ファイル　（ 0 to 255 ）<br>
+  <br>
+  
 - wifi.txt<br>
-  "03_wss"および "02_radiko"で使用するWiFi設定のテンプレート・ファイル<br>
+  03 および 02 で使用するWiFi設定のテンプレート・ファイル<br>
   設定を自分用に変更してSD直下にコピーしてください。<br>
   <br>
 
 - apikey.txt<br>
-  "03_wss.bin"　で使用するApiKey設定のテンプレート・ファイル<br><br>
+  03 で使用するApiKey設定のテンプレート・ファイル<br>
   設定を自分用に変更してSD直下にコピーしてください。<br>
 <br>
 
 ## 対応ハードウエア
+### 本体:　 M5Core2 
 - M5Stack Core2 for AWS（この機種で動作確認をおこなっています。）<br>
 - M5Stack Core2 <br>
-- M5Stack Core2 v1.1　<br><br>
+- M5Stack Core2 v1.1　<br>
+<br>
 
-サーボは、SG90とその互換の機種<br>
+### サーボ：SG90とその互換機種
+- サーボなしの場合は、servo.txt の1行目を"off"にしてください。<br>
+- サーボポートは、PortAまたは、PortC のどちらにも対応。<br>
 <br>
 
 ## インストール方法
@@ -76,13 +98,16 @@ SD直下に置いてください。
 - 設定ファイル(wifi.txt等)は、必要に応じて修正してからSDにコピーしてください。<br>
 - jpg / jsonフォルダ下のファイルをコピーすると対応ソフトの画像と説明が表示されます。<br><br>
 - その他に、ソフト毎に独自にデータファイル等が必要になるものがあります。ソフトの説明書を見て確認してください。<br>
-例）"04_whisperMp3.bin" は、SD直下のmp3フォルダ下に音声データが必要です。<br><br><br>
+(例)<br>
+04 は、mp3フォルダ下に音声データが必要です。<br>
+05 は、bmp_xxxフォルダおよび jsonフォルダ下にデータが必要です。<br>
+<br><br>
 
 
 SD-Updaterが初めての場合には、Core2本体に一度だけ対応ソフト（ファームウエア）を書き込む必要があります。<br>
 次の２つの方法があります。<br>
 
-- 01～04いずれかのソフトをGitHubでファイルを取得し、VsCodeの開発環境を整えコンパイルしてCore2本体に書き込む。<br>
+- 01～05 いずれかのソフトをGitHubでファイルを取得し、VsCodeの開発環境を整えコンパイルしてCore2本体に書き込む。<br>
 
 - <b>M5Burnerを使用してWebServer-with-Stackchanのソフトを書き込む<br>
 （簡単なのでこの方法を推奨します）</b>
