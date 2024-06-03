@@ -1,7 +1,7 @@
 # BinsPack-for-StackChan-Core2
 
 SD-Updaterに対応したスタックチャン(Core2版)のBINファイル集です。<br>
-スタックチャン用ソフト５種とランチャー(menu.bin)を同梱しています。
+スタックチャン用ソフト６種とランチャー(menu.bin)を同梱しています。
 
 各ソフトの内容は、リンクをご参照ください。
 
@@ -39,7 +39,13 @@ WebRadio Radikoプレイヤー付きのスタックチャン
 Avatarが、サーボ・LED・bluetoothスピーカ音声とコラボして変化します。<br>
 <br>
 
-<b>※04、05は、mongonta0716さんのソフトをSD-Updater対応したものです。</b><br>
+- [06_tester.bin](https://github.com/NoRi-230401/SDG-stack-chan-tester)<br>
+  stack-chan-tester<br>
+  スタックチャンを作成するときに、PWMサーボの調整及びテストを行うためのソフト。<br>
+  外部ファイル("servo.txt")で、サーボPIN設定をします。<br>
+<br>
+
+<b>※04、05、06　は、mongonta0716さんのソフトをSD-Updater対応したものです。</b><br>
 <br>
 
 
@@ -52,7 +58,7 @@ SD-Updaterのランチャーソフト。<br>
 SD直下に置いてください。
 
 - servo.txt<br>
- 04 と05 で使用するServo設定ファイル<br>
+ 04・05・06 で使用するServo設定ファイル<br>
 １行目(USE_SERVO)： "on" または、 "off"<br>
 ２行目(SERVO_PIN_X) ： "13"(PortC)　または、"33"(PortA)<br>
 ３行目(SERVO_PIN_Y) ： "14"(PortC)　または、"32"(PortA)<br>
