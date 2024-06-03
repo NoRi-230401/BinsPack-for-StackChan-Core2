@@ -39,7 +39,7 @@ WebRadio Radikoプレイヤー付きのスタックチャン
 Avatarが、サーボ・LED・bluetoothスピーカ音声とコラボして変化します。<br>
 <br>
 
-- [06_tester.bin](https://github.com/NoRi-230401/SDG-stack-chan-tester)<br>
+- [06_tester.bin](https://github.com/NoRi-230401/SDU-stack-chan-tester)<br>
   stack-chan-tester<br>
   スタックチャンを作成するときに、PWMサーボの調整及びテストを行うためのソフト。<br>
   外部ファイル("servo.txt")で、サーボPIN設定をします。<br>
