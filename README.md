@@ -1,7 +1,7 @@
 # BinsPack-for-StackChan-Core2
 
 SD-Updaterに対応したスタックチャン(Core2版)のBINファイル集です。<br>
-スタックチャン用ソフト６種とランチャー(menu.bin)を同梱しています。
+スタックチャン用ソフト７種とランチャー(menu.bin) ＋ おまけ（１）を同梱しています。
 
 各ソフトの内容は、リンクをご参照ください。
 
@@ -44,8 +44,8 @@ Avatarが、サーボ・LED・bluetoothスピーカ音声とコラボして変�
 
 - [07_AiStackChan2.bin](https://github.com/NoRi-230401/SDU-AI_StackChan2)<br>
   AiStackChan2<br>
-  あのrobo8080さんの AiStackChan2を SD-Updater対応したものです。<br>
-  外部ファイル("servo.txt")で、サーボの設定をします。<br>
+  あのrobo8080さんの AiStackChan2を SD-Updater対応しました。<br>
+  外部ファイル("servo.txt")で、サーボ設定ができます。<br>
 <br>
 
 <b>※01・02・07は、　robo8080さんのソフトをSD-Updater対応したものです。</b><br>
@@ -130,7 +130,7 @@ LEDを使用する場合は、 　"on"　<br>
 SD-Updaterが初めての場合には、Core2本体に一度だけ対応ソフト（ファームウエア）を書き込む必要があります。<br>
 次の２つの方法があります。<br>
 
-- 01～06 いずれかのソフトをGitHubでファイルを取得し、VsCodeの開発環境を整えコンパイルしてCore2本体に書き込む。<br>
+- 00～07 いずれかのソフトをGitHubでファイルを取得し、VsCodeの開発環境を整えコンパイルしてCore2本体に書き込む。<br>
 
 - <b>M5Burnerを使用してWebServer-with-Stackchanのソフトを書き込む<br>
 （簡単なのでこの方法を推奨します）</b>
