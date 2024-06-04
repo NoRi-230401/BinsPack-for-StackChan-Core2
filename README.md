@@ -17,9 +17,6 @@ SD-Updaterに対応したスタックチャン(Core2版)のBINファイル集で
 Radiko<br>
 WebRadio Radikoプレイヤー付きのスタックチャン
 
-<b>※01および02は、robo8080さんのソフトをSD-Updater対応したものです。</b><br>
-この２つは、凄いソフトです。実用性あります。ぜひ、使って見てください。<br>
-<br>
 
 - [03_wss.bin](https://github.com/NoRi-230401/WebServer-with-stackchan)<br>
   WebServer-with-Stackchan<br>
@@ -45,7 +42,16 @@ Avatarが、サーボ・LED・bluetoothスピーカ音声とコラボして変�
   外部ファイル("servo.txt")で、サーボPIN設定をします。<br>
 <br>
 
-<b>※04、05、06　は、mongonta0716さんのソフトをSD-Updater対応したものです。</b><br>
+- [07_AiStackChan2.bin](https://github.com/NoRi-230401/SDU-AI_StackChan2)<br>
+  AiStackChan2<br>
+  あのrobo8080さんの AiStackChan2を SD-Updater対応したものです。<br>
+  外部ファイル("servo.txt")で、サーボの設定をします。<br>
+<br>
+
+<b>※01・02・07は、　robo8080さんのソフトをSD-Updater対応したものです。</b><br>
+
+
+<b>※04・05・06は、　mongonta0716さんのソフトをSD-Updater対応したものです。</b><br>
 <br>
 
 
@@ -54,11 +60,22 @@ SD-Updaterのランチャーソフト。<br>
 "M5Core2-Launcher-2.0.13.bin" を "menu.bin"に名前を変更したものです。
 <br><br>
 
+おまけ<br>
+- [00_powerOff.bin](https://github.com/NoRi-230401/SDU-powerOff)<br>
+  Power OFF<br>
+  起動すると２０秒後に電源OFFするだけのソフト。<br>
+  電源ボタンが壊した人（私。。）にとって、必要なソフト<br>
+  必要ない方は、SDに入れなくていいと思います。<br>
+<br><br>
+
+
+
+
 ## 設定ファイル
 SD直下に置いてください。
 
 - servo.txt<br>
- 04・05・06 で使用するServo設定ファイル<br>
+ 04・05・06・07 で使用するServo設定ファイル<br>
 １行目(USE_SERVO)： "on" または、 "off"<br>
 ２行目(SERVO_PIN_X) ： "13"(PortC)　または、"33"(PortA)<br>
 ３行目(SERVO_PIN_Y) ： "14"(PortC)　または、"32"(PortA)<br>
