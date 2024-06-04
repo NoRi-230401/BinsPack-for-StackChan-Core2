@@ -11,12 +11,13 @@ SD-Updaterに対応したスタックチャン(Core2版)のBINファイル集で
 
 - [01_btSpeaker.bin](https://github.com/NoRi-230401/SDU-stackchan-bluetooth-simple)<br>
   Bluetooth Speaker<br>
+  レベルメーターやFaceチェンジ機能付き<br>
 <br>
 
 - [02_radiko.bin](https://github.com/NoRi-230401/SDU-M5Unified_StackChan_Radiko)<br>
 Radiko<br>
-WebRadio Radikoプレイヤー付きのスタックチャン
-
+WebRadio Radikoプレイヤー付きのスタックチャン<br>
+<br>
 
 - [03_wss.bin](https://github.com/NoRi-230401/WebServer-with-stackchan)<br>
   WebServer-with-Stackchan<br>
