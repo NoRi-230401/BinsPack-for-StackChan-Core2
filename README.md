@@ -17,6 +17,7 @@ SD-Updaterに対応したスタックチャン(Core2版)のBINファイル集で
 - [02_radiko.bin](https://github.com/NoRi-230401/SDU-M5Unified_StackChan_Radiko)<br>
 Radiko<br>
 WebRadio Radikoプレイヤー付きのスタックチャン<br>
+<b>"servo.txt"で、サーボ設定をします。(2024-06-05更新)</b><br>
 <br>
 
 - [03_wss.bin](https://github.com/NoRi-230401/WebServer-with-stackchan)<br>
@@ -28,8 +29,7 @@ WebRadio Radikoプレイヤー付きのスタックチャン<br>
   スタックチャンが独り言を言います。セリフをSDカードにmp3ファイルで入れておくとランダムに再生します。<br>
   通信環境(WiFi等)がいらないソフトなので気楽に使えます。デモや販促等で活躍できそうです。<br>
   mp3のデータファイルと"servo.txt","volume.txt"の設定ファイルを使用します。<br>
-  実行前にSDにコピーが必要です。
-<br><br>
+  <br>
 
 - [05_AvatarLite.bin](https://github.com/NoRi-230401/SDU-M5Core2ImageAvatarLite)<br>
   Image Avatar Lite<br>
@@ -40,13 +40,13 @@ Avatarが、サーボ・LED・bluetoothスピーカ音声とコラボして変�
 - [06_tester.bin](https://github.com/NoRi-230401/SDU-stack-chan-tester)<br>
   stack-chan-tester<br>
   スタックチャンを作成するときに、PWMサーボの調整及びテストを行うためのソフト。<br>
-  外部ファイル("servo.txt")で、サーボPIN設定をします。<br>
+  "servo.txt"で、サーボPIN設定をします。<br>
 <br>
 
 - [07_AiStackChan2.bin](https://github.com/NoRi-230401/SDU-AI_StackChan2)<br>
   AiStackChan2<br>
   あのrobo8080さんの AiStackChan2を SD-Updater対応しました。<br>
-  外部ファイル("servo.txt")で、サーボ設定ができます。<br>
+  "servo.txt"で、サーボ設定をします。<br>
 <br>
 
 <b>※01・02・07は、　robo8080さんのソフトをSD-Updater対応したものです。</b><br>
@@ -76,7 +76,7 @@ SD-Updaterのランチャーソフト。<br>
 SD直下に置いてください。
 
 - servo.txt<br>
- 04・05・06・07 で使用するServo設定ファイル<br>
+ 02・04・05・06・07 で使用するServo設定ファイル<br>
 １行目(USE_SERVO)： "on" または、 "off"<br>
 ２行目(SERVO_PIN_X) ： "13"(PortC)　または、"33"(PortA)<br>
 ３行目(SERVO_PIN_Y) ： "14"(PortC)　または、"32"(PortA)<br>
@@ -121,9 +121,12 @@ LEDを使用する場合は、 　"on"　<br>
 - BINファイルは、全てSD直下にコピーしてください。<br>
 - 設定ファイル(wifi.txt等)は、必要に応じて修正してからSDにコピーしてください。<br>
 - jpg / jsonフォルダ下のファイルをコピーすると対応ソフトの画像と説明が表示されます。<br><br>
-- その他に、ソフト毎に独自にデータファイル等が必要になるものがあります。ソフトの説明書を見て確認してください。<br>
+- その他に、ソフト毎に設定またはデータファイル等が必要になるものがあります。<br>
+ソフトの説明書を見て確認してください。<br>
+
 (例)<br>
-04 は、mp3フォルダ下に音声データが必要です。<br>
+01 は、yaml/SC_config.yamlファイルを使用します。<br>
+04 は、mp3フォルダ下に音声データを使用します。<br>
 05 は、bmp_xxxフォルダおよび jsonフォルダ下にデータが必要です。<br>
 <br><br>
 
