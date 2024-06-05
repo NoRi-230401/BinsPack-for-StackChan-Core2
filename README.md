@@ -17,7 +17,7 @@ SD-Updaterに対応したスタックチャン(Core2版)のBINファイル集で
 - [02_radiko.bin](https://github.com/NoRi-230401/SDU-M5Unified_StackChan_Radiko)<br>
 Radiko<br>
 WebRadio Radikoプレイヤー付きのスタックチャン<br>
-<b>"servo.txt"で、サーボ設定をします。(2024-06-05更新)</b><br>
+<b>"servo.txt"で、サーボ設定。(2024-06-05更新)</b><br>
 <br>
 
 - [03_wss.bin](https://github.com/NoRi-230401/WebServer-with-stackchan)<br>
@@ -31,7 +31,7 @@ WebRadio Radikoプレイヤー付きのスタックチャン<br>
   mp3のデータファイルと"servo.txt","volume.txt"の設定ファイルを使用します。<br>
   <br>
 
-- [05_AvatarLite.bin](https://github.com/NoRi-230401/SDU-M5Core2ImageAvatarLite)<br>
+- [05_avatarLite.bin](https://github.com/NoRi-230401/SDU-M5Core2ImageAvatarLite)<br>
   Image Avatar Lite<br>
 独自Avatar開発の為のソフトウエア・ツールです。<br>
 Avatarが、サーボ・LED・bluetoothスピーカ音声とコラボして変化します。<br>
@@ -49,10 +49,17 @@ Avatarが、サーボ・LED・bluetoothスピーカ音声とコラボして変�
   "servo.txt"で、サーボ設定をします。<br>
 <br>
 
-<b>※01・02・07は、　robo8080さんのソフトをSD-Updater対応したものです。</b><br>
+- [08_avatarMic.bin](https://github.com/NoRi-230401/SDU-m5stack-avatar-mic)<br>
+  Avatar-Mic<br>
+  Micで拾った音に合わせてAvatarが口パクしたり、傾いたりします。<br>
+  いつまでもいっしょにいたい、とっても楽しいソフトです。
+<br>
+<br>
+
+<b>※01・02・07は、robo8080さんのソフトをSD-Updater対応したものです。</b><br>
 
 
-<b>※04・05・06は、　mongonta0716さんのソフトをSD-Updater対応したものです。</b><br>
+<b>※04・05・06・08は、mongonta0716さんのソフトをSD-Updater対応したものです。</b><br>
 <br>
 
 
