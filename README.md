@@ -52,7 +52,7 @@ Avatarが、サーボ・LED・bluetoothスピーカ音声とコラボして変�
 - [08_avatarMic.bin](https://github.com/NoRi-230401/SDU-m5stack-avatar-mic)<br>
   Avatar-Mic<br>
   Micで拾った音に合わせてAvatarが口パクしたり、傾いたりします。<br>
-  いつまでもいっしょにいたい、とっても楽しいソフトです。
+  スタックチャンといつまでもいっしょにいたくなる、とっても楽しいソフトです。
 <br>
 <br>
 
