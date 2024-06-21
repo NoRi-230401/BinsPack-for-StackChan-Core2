@@ -71,11 +71,13 @@ SD-Updaterのランチャーソフト。<br>
 <br><br>
 
 ツール<br>
-- [00_WebDav.bin](https://github.com/NoRi-230401/SDU-WebDav)<br>
+
+- [00_WebDav.bin](https://github.com/NoRi-230401/SDU-WebDav)　<b>--- New（2024-06-21）</b><br>
   WebDav<br>
   SD-Updaterに対応したファイル管理（WebDav）ツールです。<br>
   PC等から直接、M5Stack Core2のSD/SPIFFSにアクセスすることができるようになります。<br>
   ファイルのコピー・変更・削除が簡単になります。<br>
+
 
 <br>
 おまけ<br>
