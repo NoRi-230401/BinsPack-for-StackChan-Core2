@@ -1,7 +1,7 @@
 # BinsPack-for-StackChan-Core2
 
 SD-Updaterに対応したスタックチャン(Core2版)のBINファイル集です。<br>
-スタックチャン用ソフト８種とランチャー(menu.bin) ＋ おまけ（１）を同梱しています。
+スタックチャン用ソフト８種とランチャー(menu.bin) ＋ ツール（１）＋おまけ（１）を同梱しています。
 
 各ソフトの内容は、リンクをご参照ください。
 
@@ -12,6 +12,8 @@ SD-Updaterに対応したスタックチャン(Core2版)のBINファイル集で
 - [01_btSpeaker.bin](https://github.com/NoRi-230401/SDU-stackchan-bluetooth-simple)<br>
   Bluetooth Speaker<br>
   レベルメーターやFaceチェンジ機能付き<br>
+※SDの yaml/SC_Config.yaml の設定ファイルを使用します。<br>
+Bluetoothスピーカー名・起動時ボリューム等を変更することができます。<br>
 <br>
 
 - [02_radiko.bin](https://github.com/NoRi-230401/SDU-M5Unified_StackChan_Radiko)<br>
@@ -68,8 +70,17 @@ SD-Updaterのランチャーソフト。<br>
 "M5Core2-Launcher-2.0.13.bin" を "menu.bin"に名前を変更したものです。
 <br><br>
 
+ツール<br>
+- [00_WebDav.bin](https://github.com/NoRi-230401/SDU-WebDav)<br>
+  WebDav<br>
+  SD-Updaterに対応したファイル管理（WebDav）ツールです。<br>
+  PC等から直接、M5Stack Core2のSD/SPIFFSにアクセスすることができるようになります。<br>
+  ファイルのコピー・変更・削除が簡単になります。<br>
+
+<br>
 おまけ<br>
-- [00_powerOff.bin](https://github.com/NoRi-230401/SDU-powerOff)<br>
+
+- [99_powerOff.bin](https://github.com/NoRi-230401/SDU-powerOff)<br>
   Power OFF<br>
   起動すると２０秒後に電源OFFするだけのソフト。<br>
   電源ボタンが壊した人（私。。）にとって、必要なソフト<br>
@@ -103,7 +114,7 @@ LEDを使用する場合は、 　"on"　<br>
   <br>
   
 - wifi.txt<br>
-  02・03・07 で使用するWiFi設定のテンプレート・ファイル<br>
+  00・02・03・07 で使用するWiFi設定のテンプレート・ファイル<br>
   設定を自分用に変更してSD直下にコピーしてください。<br>
   <br>
 
