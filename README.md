@@ -129,7 +129,7 @@ LEDを使用する場合は、 　"on"　<br>
 ### 本体:　 M5Sstack Core2
 - M5Stack Core2 for AWS（動作確認している機種）<br>
 - M5Stack Core2 <br>
-- M5Stack Core2 v1.1　<br>
+- ~~M5Stack Core2 v1.1~~　<b>(menu.binが未対応 :2024-06-23追記)</b><br>
 <br>
 
 ### サーボ：SG90とその互換機種
