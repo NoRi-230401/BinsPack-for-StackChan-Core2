@@ -85,7 +85,7 @@ SD-Updaterのランチャーソフト。<br>
 - [99_powerOff.bin](https://github.com/NoRi-230401/SDU-powerOff)<br>
   Power OFF<br>
   起動すると２０秒後に電源OFFするだけのソフト。<br>
-  電源ボタンが壊した人（私。。）にとって、必要なソフト<br>
+  電源ボタンが壊れた人（私。。）にとって、必要なソフト<br>
   必要ない方は、SDに入れなくていいと思います。<br>
 <br><br>
 
