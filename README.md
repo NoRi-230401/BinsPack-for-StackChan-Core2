@@ -45,11 +45,12 @@ Avatarが、サーボ・LED・bluetoothスピーカ音声とコラボして変�
   "servo.txt"で、サーボPIN設定をします。<br>
 <br>
 
-- [07_AiStackChan2.bin](https://github.com/NoRi-230401/SDU-AI_StackChan2)<br>
+- [07_AiStackChan2.bin](https://github.com/NoRi-230401/SDU-AI_StackChan2)<b>--- New（2024-07-10)</b><br>
   AiStackChan2<br>
-  あのrobo8080さんの AiStackChan2を SD-Updater対応しました。<br>
+  2024-07-10 rootCACertificate.h更新しました。<br>
+  robo8080さんの AiStackChan2を SD-Updater対応しました。<br>
   "servo.txt"で、サーボ設定をします。<br>
-<br>
+ <br>
 
 - [08_avatarMic.bin](https://github.com/NoRi-230401/SDU-m5stack-avatar-mic)<br>
   Avatar-Mic<br>
