@@ -22,8 +22,9 @@ WebRadio Radikoプレイヤー付きのスタックチャン<br>
 <b>"servo.txt"で、サーボ設定。(2024-06-05更新)</b><br>
 <br>
 
-- [03_wss.bin](https://github.com/NoRi-230401/WebServer-with-stackchan)<br>
+- [03_wss.bin](https://github.com/NoRi-230401/WebServer-with-stackchan)<b>--- New（2024-07-11)</b><br>
   WebServer-with-Stackchan<br>
+  2024-07-11 rootCACertificate.h更新しました。<br>
   AiStackChan2相当、サーボ調整、リモコン等たくさんの機能を詰め込みました。<br><br>
 
 - [04_whisperMp3.bin](https://github.com/NoRi-230401/SDU-M5Unified_StackChan)<br>
@@ -45,9 +46,9 @@ Avatarが、サーボ・LED・bluetoothスピーカ音声とコラボして変�
   "servo.txt"で、サーボPIN設定をします。<br>
 <br>
 
-- [07_AiStackChan2.bin](https://github.com/NoRi-230401/SDU-AI_StackChan2)<b>--- New（2024-07-10)</b><br>
+- [07_AiStackChan2.bin](https://github.com/NoRi-230401/SDU-AI_StackChan2)<b>--- New（2024-07-11)</b><br>
   AiStackChan2<br>
-  2024-07-10 rootCACertificate.h更新しました。<br>
+  2024-07-11 rootCACertificate.h更新しました。<br>
   robo8080さんの AiStackChan2を SD-Updater対応しました。<br>
   "servo.txt"で、サーボ設定をします。<br>
  <br>
