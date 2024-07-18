@@ -186,7 +186,11 @@ LEDを使用する場合は、 　"on"　<br>
 ## SD-Updaterについて
 tobozoさん開発。SDに複数のBINファイルを入れて、ソフトを切替えて使用できるようになります。<br>
 
- https://github.com/tobozo/M5Stack-SD-Updater<br><br>
+https://github.com/tobozo/M5Stack-SD-Updater<br><br>
+
+
+KeiYouのソフトの館：「M5Stack-SD-UpdaterでSDカードからアプリを起動！」<br>
+https://progkeiyou.com/sd-updater1/<br><br>
 
 
 タカオさん、2023/7/29 ｽﾀｯｸﾁｬﾝ お誕生日会 2023のLTで、M5Stack-SD-Updaterの概要を説明した時のスライド<br>
