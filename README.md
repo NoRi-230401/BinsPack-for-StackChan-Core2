@@ -90,7 +90,7 @@ SD-Updaterのランチャーソフト。<br>
   最大５０枚。フォルダは、設定ファイルで変更可能です。<br>
   ManualモードとAutoモードがあり、いろいろと表示順の変更ができます。<br>
 　"/Pctures"フォルダに表示する画像データ、 および<br>
-　"/app/imageView/imgView.json"　設定ファイルを設置してください。<br>
+　"/app/imgView/imgView.json"　設定ファイルを設置してください。<br>
 <br>
 
 おまけ<br>
