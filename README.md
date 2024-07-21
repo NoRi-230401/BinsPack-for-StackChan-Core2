@@ -82,6 +82,17 @@ SD-Updaterのランチャーソフト。<br>
 
 
 <br>
+
+- [91_imgView.bin](https://github.com/NoRi-230401/SDU-ImageViewer)　<b>--- New（2024-07-21）</b><br>
+  Image Viewer<br>
+  画像ファイル表示ツール<br>
+  "/Pictures"フォルダ内の 「jpg/png形式」の画像ファイルを表示。<br>
+  最大５０枚。フォルダは、設定ファイルで変更可能です。<br>
+  ManualモードとAutoモードがあり、いろいろと表示順の変更ができます。<br>
+　"/Pctures"フォルダに表示する画像データ、 および<br>
+　"/app/imageView/imgView.json"　設定ファイルを設置してください。<br>
+<br>
+
 おまけ<br>
 
 - [99_powerOff.bin](https://github.com/NoRi-230401/SDU-powerOff)<br>
