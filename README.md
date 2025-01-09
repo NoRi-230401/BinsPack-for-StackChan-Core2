@@ -46,11 +46,13 @@ Avatarが、サーボ・LED・bluetoothスピーカ音声とコラボして変�
   "servo.txt"で、サーボPIN設定をします。<br>
 <br>
 
-- [07_AiStackChan2.bin](https://github.com/NoRi-230401/SDU-AI_StackChan2)<b>--- New（2024-07-11)</b><br>
+- [07_AiStackChan2.bin](https://github.com/NoRi-230401/SDU-AI_StackChan2)<b>--- New（2025-01-09)</b><br>
   AiStackChan2<br>
-  2024-07-11 rootCACertificate.h更新しました。<br>
-  robo8080さんの AiStackChan2を SD-Updater対応しました。<br>
-  "servo.txt"で、サーボ設定をします。<br>
+robo8080さんの AiStackChan2を SD-Updater対応しました。<br>
+・ rootCACertificate.h更新(2024-07-10)<br>
+・ ChatGPTのモデル変更：gpt-4o-mini<br>
+・ SD-Updater対応<br>
+・ サーボPortを外部ファイル（servo.txt）で設定。<br>
  <br>
 
 - [08_avatarMic.bin](https://github.com/NoRi-230401/SDU-m5stack-avatar-mic)<br>
@@ -172,13 +174,25 @@ LEDを使用する場合は、 　"on"　<br>
 - jpg / jsonフォルダ下のファイルをコピーするとmenu.binで対応ソフトの画像と説明が表示されます。<br>
 <br>
 
-### SD-Updaterが初めての場合には、M5stack Core2本体に一度だけSD-Updater対応のソフト（ファームウエア）を書き込む必要があります。<br>
+### SD-Updaterが初めての場合には、M5stack Core2本体に一度だけ SD-Updater対応のソフト（ファームウエア）を書き込む必要があります。<br>
 次の２つの方法があります。<br>
 
 - いずれかのソフトで、リンク先のGitHubからファイルを取得し、VsCodeの開発環境を整えコンパイルして、ファームウエアをCore2本体に書き込む。<br>
 
-- M5Burnerを使用してWebServer-with-Stackchanのソフトを書き込む<br>
-（簡単なのでこちらの方法を推奨）<br>
+- M5Burnerを使用してSD_Updater対応ソフトをCore2本体に書き込む。<br>
+簡単なのでこちらの方法を推奨します。<br>
+現在、WebServer-with-Stackchan または、AiStackChan2の対応版をM5Burnerに登録してあります。<br><br>
+
+画像は、M5Burnerの「AIｽﾀｯｸﾁｬﾝ2 SD-Updater対応版」のものです。<br>
+「CORE2 ＆ TOUGH」を指定して、"AIｽﾀｯｸﾁｬﾝ2"で検索すると出てきます。<br>
+<br>
+![画像](images/M5BurnerSDU-AI-StackChan2v102.png)<br><br>
+
+<br>
+
+
+
+
 <br>
 
 ## 動作
