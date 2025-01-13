@@ -73,7 +73,7 @@ robo8080さんの AiStackChan2を SD-Updater対応しました。<br>
 などの先進的な機能が満載されています。<br>
 <b>SDの"/app/AiStackChanEx"フォルダ下のファイル、および "/yaml"フォルダ下の "SC_BasicConfig.yaml", "SC_SecConfig.yaml"を設定ファイルとして使用します。</b><br>
 リンク先の説明書を参照し、書き換えてご使用ください。<br>
-（BinsPack同梱を快諾していただきました。ありがとうございます。）<br>
+（BinsPackに同梱を快諾していただきました。ありがとうございます。）<br>
 <br><br>
 
 
