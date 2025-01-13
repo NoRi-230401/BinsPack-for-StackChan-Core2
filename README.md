@@ -1,7 +1,7 @@
 # BinsPack-for-StackChan-Core2
 
 SD-Updaterに対応したスタックチャン(Core2版)のBINファイル集です。<br>
-スタックチャン用ソフト８種とランチャー(menu.bin) ＋ ツール（２）＋おまけ（１）を同梱しています。
+スタックチャン用ソフト９種とランチャー(menu.bin) ＋ ツール（２）＋おまけ（１）を同梱しています。
 
 各ソフトの内容は、リンクをご参照ください。
 
@@ -62,10 +62,28 @@ robo8080さんの AiStackChan2を SD-Updater対応しました。<br>
 <br>
 <br>
 
+- [09_AiStackChanEx.bin](https://github.com/ronron-gh/AI_StackChan_Ex)<b>--- New（2025-01-13)</b><br>
+  AiStackChanEx<br>
+  motohさんがrobo8080さんのAIｽﾀｯｸﾁｬﾝ2の機能を拡張したソフトです。<br>
+・Function Calling（タイマー/メモ/メール/天気予報 など）<br>
+・各種サービス(Ai/STT/TTS)の選択<br>
+・複数ウェイクワード登録<br>
+・ユーザアプリケーション(ポモドーロタイマ/デジタルフォトフレーム/ステータスモニタ)<br>
+・stackchan-arduinoライブラリ対応<br>
+などの先進的な機能が満載されています。<br>
+<br>
+<b>SDの"/app/AiStackChanEx"フォルダ下のファイル、および "/yaml"フォルダ下の "SC_BasicConfig.yaml", "SC_SecConfig.yaml"を設定ファイルとして使用します。</b><br>
+リンク先の説明書を参照し、書き換えてご使用ください。<br>
+<br>
+（BinsPack同梱を快諾していただきました。ありがとうございます。）<br>
+<br><br>
+
+
 <b>※01・02・07は、robo8080さんのソフトをSD-Updater対応したものです。</b><br>
 
-
 <b>※04・05・06・08は、mongonta0716さんのソフトをSD-Updater対応したものです。</b><br>
+<br>
+<b>※09は、motohさんのソフトをコンパイルし、binおよびと設定ファイルを同梱しました。</b><br>
 <br>
 
 
@@ -76,7 +94,7 @@ SD-Updaterのランチャーソフト。<br>
 
 ツール<br>
 
-- [00_WebDav.bin](https://github.com/NoRi-230401/SDU-WebDav)　<b>--- New（2024-06-21）</b><br>
+- [90_WebDav.bin](https://github.com/NoRi-230401/SDU-WebDav)　<b>--- 番号変更（2025-01-13）</b><br>
   WebDav<br>
   SD-Updaterに対応したファイル管理（WebDav）ツールです。<br>
   PC等から直接、M5Stack Core2のSD/SPIFFSにアクセスすることができるようになります。<br>
@@ -85,7 +103,7 @@ SD-Updaterのランチャーソフト。<br>
 
 <br>
 
-- [91_imgView.bin](https://github.com/NoRi-230401/SDU-ImageViewer)　<b>--- New（2024-07-21）</b><br>
+- [91_imgView.bin](https://github.com/NoRi-230401/SDU-ImageViewer)<br>
   Image Viewer<br>
   画像ファイル表示ツール<br>
   "/Pictures"フォルダ内の 「jpg/png形式」の画像ファイルを表示。<br>
@@ -118,7 +136,12 @@ SD直下に置いてください。
 サーボを使用しない場合は、１行目を "off"　<br>
 サーボを使用する場合は、　１行目を "on"　<br>
 <br>
-
+次のサンプル・ファイルを用意しました。<br>
+ 　servo-sample(PortA).txt<br>
+ 　servo_sample(PortC).txt<br>
+ファイル名をservo.txt に変更してご使用ください。<br>
+<br>
+<br>
 - led.txt<br>
 05 で使用するLED設定ファイル<br>
 １行目(USE_LED)： "on" または、 "off"<br>
@@ -152,6 +175,8 @@ LEDを使用する場合は、 　"on"　<br>
 01 は、yaml/SC_config.yamlファイルを使用します。<br>
 04 は、mp3フォルダ下に音声データを使用します。<br>
 05 は、bmp_xxxフォルダおよび jsonフォルダ下にデータが必要です。<br>
+09 は、/app/AiStackChanExフォルダ下のファイル<br>
+　　および /yaml/SC_BasicConfig.yaml,　/yaml/SC_SecConfig.yaml<br>
 <br><br>
 
 
@@ -160,7 +185,7 @@ LEDを使用する場合は、 　"on"　<br>
 ### 本体:　 M5Sstack Core2
 - M5Stack Core2 for AWS（動作確認している機種）<br>
 - M5Stack Core2 <br>
-- ~~M5Stack Core2 v1.1~~　<b>(menu.binが未対応 :2024-06-23追記)</b><br>
+- ~~M5Stack Core2 v1.1~~　<b>(menu.bin未対応の為 :2024-06-23追記)</b><br>
 <br>
 
 ### サーボ：SG90とその互換機種
@@ -170,7 +195,7 @@ LEDを使用する場合は、 　"on"　<br>
 
 ## インストール方法
 - BINファイルは、全てSD直下にコピーしてください。<br>
-- 設定ファイル(wifi.txt等)を、必要に応じて修正しSDにコピーしてください。<br>
+- 設定ファイル(wifi.txt等)を必要に応じて修正し、SDにコピーしてください。<br>
 - jpg / jsonフォルダ下のファイルをコピーするとmenu.binで対応ソフトの画像と説明が表示されます。<br>
 <br>
 
@@ -180,8 +205,9 @@ LEDを使用する場合は、 　"on"　<br>
 - いずれかのソフトで、リンク先のGitHubからファイルを取得し、VsCodeの開発環境を整えコンパイルして、ファームウエアをCore2本体に書き込む。<br>
 
 - M5Burnerを使用してSD_Updater対応ソフトをCore2本体に書き込む。<br>
-簡単なのでこちらの方法を推奨します。<br>
-現在、WebServer-with-Stackchan または、AiStackChan2の対応版をM5Burnerに登録してあります。<br><br>
+現在、「AIｽﾀｯｸﾁｬﾝ2 SD-Updater対応版」(07_AiStachChan2) または、<br>「WebServer-with-Stackchan」(03_wss) を M5Burnerに登録してあります。<br>
+(簡単なのでこちらの方法を推奨します。)<br>
+<br>
 
 画像は、M5Burnerの「AIｽﾀｯｸﾁｬﾝ2 SD-Updater対応版」のものです。<br>
 「CORE2 ＆ TOUGH」を指定して、"AIｽﾀｯｸﾁｬﾝ2"で検索すると出てきます。<br>
