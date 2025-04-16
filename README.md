@@ -22,7 +22,7 @@ WebRadio Radikoプレイヤー付きのスタックチャン<br>
 <b>"servo.txt"で、サーボ設定。(2024-06-05更新)</b><br>
 <br>
 
-- [03_wss.bin](https://github.com/NoRi-230401/WebServer-with-stackchan)<b>--- New（2024-07-11)</b><br>
+- [03_wss.bin](https://github.com/NoRi-230401/WebServer-with-stackchan)<br>
   WebServer-with-Stackchan<br>
   2024-07-11 rootCACertificate.h更新しました。<br>
   AiStackChan2相当、サーボ調整、リモコン等たくさんの機能を詰め込みました。<br><br>
@@ -92,6 +92,15 @@ SD-Updaterのランチャーソフト。<br>
 
 ツール<br>
 
+- [00_m5fileServer.bin](https://github.com/NoRi-230401/m5stack-file-server)　<b>--- New（2025-04-16）</b><br>
+  m5stack-file-server<br>
+  Webブラウザを通じて、SDカードや内蔵SPIFFS上のファイルを簡単に管理できます。
+  ダウンロード/アップロードはもちろん、画像・音声や設定ファイルなどを直接表示することができます。PCとスマホ両方で表示が最適になるように考慮しました。
+
+    * '03_wss.bin'のファイル管理機能を作り直して、今回独立したソフトにしました。
+
+<br>
+
 - [90_WebDav.bin](https://github.com/NoRi-230401/SDU-WebDav)　<b>--- 番号変更（2025-01-13）</b><br>
   WebDav<br>
   SD-Updaterに対応したファイル管理（WebDav）ツールです。<br>
@@ -126,6 +135,15 @@ SD-Updaterのランチャーソフト。<br>
 ## 設定ファイル
 SD直下に置いてください。
 
+- wifi.txt　<b>--- ３行目に変更あり（2025-04-16）</b><br>
+  00・02・03・07 で使用するWiFi設定<br>
+  １行目：YOUR_WIFI_SSID<br>
+  ２行目：YOUR_WIFI_PASS<br>
+  ３行目：SERVER_NAME<br>
+  設定テンプレート・ファイルを自分用に変更してSD直下にコピーしてください。<br>
+    * ３行目は、現在（2025-04-16）は、'00_m5fileServer.bin'だけ利用
+  <br><br>
+
 - servo.txt<br>
  02・04・05・06・07 で使用するServo設定ファイル<br>
 １行目(USE_SERVO)： "on" または、 "off"<br>
@@ -151,13 +169,6 @@ LEDを使用する場合は、 　"on"　<br>
   04 で使用するVolume設定ファイル　（ 0 to 255 ）<br>
   <br>
   
-- wifi.txt<br>
-  00・02・03・07 で使用するWiFi設定<br>
-  １行目：YOUR_WIFI_SSID<br>
-  ２行目：YOUR_WIFI_PASS<br>
-  設定テンプレート・ファイルを自分用に変更してSD直下にコピーしてください。<br>
-  <br>
-
 - apikey.txt<br>
   03・07 で使用するApiKey設定のテンプレート・ファイル<br>
   １行目：YOUR_OPENAI_APIKEY<br>
